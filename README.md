@@ -22,8 +22,15 @@
 
 # Installation
 
-    pip install --user jupyterlab
+    pip install --user --requirement requirements.txt
+
+## Commands
+
+Launch JupyterLab
+
+    jupyter-lab
 
 ## Links
 
 - [How to use JupyterLab](https://youtu.be/A5YyoCKxEOU)
+- [Source code for Pandas in Action](https://github.com/paskhaver/pandas-in-action)
