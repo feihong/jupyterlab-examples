@@ -1,0 +1,29 @@
+# Feihong's JupyterLab Examples
+
+## Prerequisites
+
+### Linux
+
+    curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
+    # Update ~/.profile and ~/.bashrc according to instructions, then logout and login
+
+### Mac
+
+    brew update
+    brew install pyenv
+    echo 'eval "$(pyenv init --path)"' >> ~/.zprofile
+    echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+
+### Install latest version of Python 3
+
+    pyenv install --list # list all versions you can install
+    pyenv install 3.10.2
+    pyenv global 3.10.2
+
+# Installation
+
+    pip install --user jupyterlab
+
+## Links
+
+- [How to use JupyterLab](https://youtu.be/A5YyoCKxEOU)
