@@ -2,12 +2,14 @@
 
 ## Prerequisites
 
-### Linux
+### Install pyenv
+
+Linux
 
     curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
     # Update ~/.profile and ~/.bashrc according to instructions, then logout and login
 
-### Mac
+Mac
 
     brew update
     brew install pyenv
@@ -22,15 +24,16 @@
 
 # Installation
 
-    pip install --user --requirement requirements.txt
+    make install
 
 ## Commands
 
 Launch JupyterLab
 
-    jupyter-lab
+    make start
 
 ## Links
 
 - [How to use JupyterLab](https://youtu.be/A5YyoCKxEOU)
 - [Source code for Pandas in Action](https://github.com/paskhaver/pandas-in-action)
+- [Master Math by Coding in Python](https://learning.oreilly.com/videos/master-math-by/9781801074537/)
